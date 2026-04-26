@@ -14,8 +14,8 @@ public class PowerOnController : BaseController<PowerOnController>
         var response = new Dictionary<string, string>
         {
             { "stat", "1" },
-            { "uri", "192.168.1.4" },
-            { "host", "192.168.1.4" },
+            { "uri", "127.0.0.1" },
+            { "host", "127.0.0.1" },
             { "place_id", "JPN0123" },
             { "name", "NAMCO" },
             { "nickname", "NAMCO" },

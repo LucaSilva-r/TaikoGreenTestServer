@@ -1,0 +1,7 @@
+services:
+  taiko-green-test-server:
+    build:
+      context: .
+    image: taiko-green-test-server:legacy-tls
+    network_mode: host
+    restart: unless-stopped

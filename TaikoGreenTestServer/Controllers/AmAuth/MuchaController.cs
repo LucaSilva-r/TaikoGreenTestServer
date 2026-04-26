@@ -4,7 +4,7 @@ namespace TaikoGreenTestServer.Controllers.AmAuth;
 
 public class MuchaController : BaseController<MuchaController>
 {
-    private const string MuchaUrl = "https://192.168.1.4:54430";
+    private const string MuchaUrl = "https://127.0.0.1:54430";
     [HttpPost("/mucha_front/boardauth.do")]
     public ContentResult BoardAuth([FromForm] MuchaUpdateCheckRequest request)
     {
